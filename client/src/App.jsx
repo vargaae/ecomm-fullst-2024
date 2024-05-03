@@ -6,6 +6,8 @@ import Home from "./pages/Home/Home";
 import Products from "./pages/Products/Products";
 import Product from "./pages/Product/Product";
 
+import "./App.styles.scss"
+
 const Layout = () => {
   return (
     <div className="app">
