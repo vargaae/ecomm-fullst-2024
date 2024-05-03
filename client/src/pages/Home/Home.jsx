@@ -1,13 +1,17 @@
-import React from 'react'
-import {Slider} from '../../components'
+import React from "react";
+
+import { FeaturedProducts, Slider } from "../../components";
 
 const Home = () => {
   return (
-    <div>
-    E-commerce 2024 Fullstack Application Home
-    <Slider/>
+    <div className="home">
+      <Slider />
+      <FeaturedProducts type="featured" />
+      {/*<Categories/>}*/}
+      <FeaturedProducts type="trending" />
+      {/*<Contact/>*/}
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

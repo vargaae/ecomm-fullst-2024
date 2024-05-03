@@ -9,6 +9,9 @@
 # ECOMMERCE 2024 FULLSTACK APPLICATION
 
 Features/Structure:
+🚀Slider, 
+🚀Featured Products, 
+Trending Products, 
 <!-- - 🚀AUTHENTICATION->Sign Up with email, 
 - 🚀AUTHENTICATION->Log in with email, 
 - 🚀AUTHENTICATION->Sign Up and Log In with Google account, 
@@ -24,6 +27,8 @@ Features/Structure:
 ## 🛠 Full Stack Application:
 
 - React 18.2
+- SASS
+- Material UI 5
 - Strapi
 - Stripe
 
