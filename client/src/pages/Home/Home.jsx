@@ -1,6 +1,4 @@
-import React from "react";
-
-import { FeaturedProducts, Slider } from "../../components";
+import { Contact, FeaturedProducts, Slider } from "../../components";
 
 const Home = () => {
   return (
@@ -9,7 +7,7 @@ const Home = () => {
       <FeaturedProducts type="featured" />
       {/*<Categories/>}*/}
       <FeaturedProducts type="trending" />
-      {/*<Contact/>*/}
+      <Contact />
     </div>
   );
 };

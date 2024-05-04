@@ -58,9 +58,9 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
+            <a className="link" href={`/#contact`}>
               Contact
-            </Link>
+            </a>
           </div>
           <div className="item">
             <Link className="link" to="/">
