@@ -9,6 +9,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
 
 import "./Navbar.styles.scss";
+import { Cart } from "../";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -73,12 +74,12 @@ const Navbar = () => {
             <FavoriteBorderOutlinedIcon />
             <div className="cartIcon" onClick={() => setOpen(!open)}>
               <ShoppingCartOutlinedIcon />
-              <span>0</span>
+              <span>13</span>
             </div>
           </div>
         </div>
       </div>
-      {open && <div>Cart</div>}
+      {open && <Cart />}
     </div>
   );
 };

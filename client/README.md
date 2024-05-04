@@ -12,6 +12,9 @@ Features/Structure:
 🚀Slider, 
 🚀Featured Products, 
 Trending Products, 
+🚀Product List Page,
+🚀Single Product Page,
+🚀Shopping Cart
 <!-- - 🚀AUTHENTICATION->Sign Up with email, 
 - 🚀AUTHENTICATION->Log in with email, 
 - 🚀AUTHENTICATION->Sign Up and Log In with Google account, 
