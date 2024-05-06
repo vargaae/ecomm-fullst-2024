@@ -1,4 +1,4 @@
-import { Contact, FeaturedProducts, Slider } from "../../components";
+import { FeaturedProducts, Slider } from "../../components";
 
 const Home = () => {
   return (
@@ -7,7 +7,6 @@ const Home = () => {
       <FeaturedProducts type="featured" />
       {/*<Categories/>}*/}
       <FeaturedProducts type="trending" />
-      <Contact />
     </div>
   );
 };
