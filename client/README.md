@@ -9,6 +9,9 @@
 # ECOMMERCE 2024 FULLSTACK APPLICATION
 
 Features/Structure:
+🚀REST API: Connected to Strapi,
+🚀Database for products and users: Connected to Strapi with MySQL database,
+-CLIENTSIDE:
 🚀Slider, 
 🚀Featured Products, 
 Trending Products, 
@@ -18,13 +21,11 @@ Trending Products,
 <!-- - 🚀AUTHENTICATION->Sign Up with email, 
 - 🚀AUTHENTICATION->Log in with email, 
 - 🚀AUTHENTICATION->Sign Up and Log In with Google account, 
-- 🚀Context API, 
 - 🚀SHOP, 
 - 🚀CART+USERMENU DROPDOWNs, 
 - 🚀Adding to CART,
 - 🚀CHECKOUT,
 - 🚀CART & CHECKOUT functionality (adding and decreasing amount, priceCount, TotalPriceCount),
-- 🚀Database for products and users,
 - 🚀Styled components<br> are set up in this branch (🪵11-Styled) -->
 
 ## 🛠 Full Stack Application:
