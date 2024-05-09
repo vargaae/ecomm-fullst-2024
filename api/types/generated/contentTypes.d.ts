@@ -859,7 +859,7 @@ export interface ApiProductProduct extends Schema.CollectionType {
       'manyToMany',
       'api::sub-category.sub-category'
     >;
-    isAvaible: Attribute.String;
+    isAvailable: Attribute.String;
     SKU: Attribute.String;
     Brand: Attribute.String;
     Colors: Attribute.Enumeration<

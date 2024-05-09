@@ -63,7 +63,7 @@
       "target": "api::sub-category.sub-category",
       "inversedBy": "products"
     },
-    "isAvaible": {
+    "isAvailable": {
       "type": "string"
     },
     "SKU": {

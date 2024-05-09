@@ -23,22 +23,22 @@ const Navbar = () => {
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
-            <span>USD</span>
+            <span>EUR</span>
             <KeyboardArrowDownIcon />
           </div>
           <div className="item">
             <Link className="link" to="/products/1">
-              Women
+              Chairs
             </Link>
           </div>
           <div className="item">
             <Link className="link" to="/products/2">
-              Men
+              Shelves
             </Link>
           </div>
           <div className="item">
             <Link className="link" to="/products/3">
-              Children
+              Tables
             </Link>
           </div>
         </div>
