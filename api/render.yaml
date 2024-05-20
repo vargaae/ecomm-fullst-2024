@@ -2,13 +2,13 @@ services:
   - type: web
     name: strapi
     plan: starter
-    buildCommand: yarn install && yarn build
-    startCommand: rsync -a public/ && yarn start
-    healthCheckPath: /_health
-    disk:
-      name: strapi-data
-      mountPath: /data
-      sizeGB: 1
+    buildCommand: yarn && yarn build
+    startCommand: yarn develop
+    # healthCheckPath: /_health
+    # disk:
+    #   name: strapi-data
+    #   mountPath: /data
+    #   sizeGB: 1
     envVars:
       - key: NODE_VERSION
         value: 12.22.0

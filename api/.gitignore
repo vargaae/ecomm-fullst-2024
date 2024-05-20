@@ -106,6 +106,7 @@ coverage
 ############################
 
 .env
+.env.rackhost
 license.txt
 exports
 .strapi
